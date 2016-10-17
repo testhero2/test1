@@ -9,6 +9,7 @@ header('Content-type: application/json; charset=utf-8;');
 header('Content-Encoding: gzip');
 
 $url = 'http://gcand.gree-apps.net'.$_SERVER['REQUEST_URI'];
+echo $url;
 $incoming_headers = getallheaders();
 $raw_post_data = file_get_contents('php://input');
 
