@@ -1,1 +1,1 @@
-<? php_info(); ?>
+Hello World!
